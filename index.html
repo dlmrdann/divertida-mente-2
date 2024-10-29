@@ -10,31 +10,91 @@
     <section class="hero">
         <div class="hero__content">
             <h1 class="hero__content__branding">
-                <img src="./dist/images/disneyplus.svg" alt="Dispney+">
+                <img src="./dist/images/logo_divertida_mente.png" alt="Divertida mente 2">
             </h1>
             <h3 class="title--small">
-                As melhores histórias em um só lugar.
+                Disponível no Disney+
             </h3>
-            <p>
-                <a href="#" class="link-text">Assinar o Disney+</a>
-                <br>
-                <span class="text">
-                    R$ 27,90/mês o R$ 279,90/ano à vista*
-                </span>
+            <p class="text">
+                Assista de onde quiser!
             </p>
             <ul class="hero__content__combos">
                 <li class="hero__content__combos__combo">
-                    <img src="./dist/images/logos/disney_star_plus.png" alt="Dispney+ -Star+ -Combo+">
-                    <button>ASSINE AGORA</button>
-                    <span class="text">R$ 45,90/mês*</span>
+                    <button>Assista Agora</button>
                 </li>
-                <li class="hero__content__combos__combo">
-                    <img src="./dist/images/logos/disney_star_plus.png" alt="Dispney+ -Star+ -Combo+">
-                    <button>ASSINE AGORA</button>
-                    <span class="text">R$ 45,90/mês*</span>
+                <li class="hero__content__combos__combo">          
+                    <button>Ver Trailer</button>
                 </li>
             </ul>
         </div>
     </section>
+    <section cass="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="todos_personagens" class="shows__tabs__button shows__tabs__button--is-active">
+                Todos os Personagens
+            </button>
+            <button data-tab-button="populares" class="shows__tabs__button">
+                Personagens Populares 
+            </button>
+            <button data-tab-button="novos_personagens" class="shows__tabs__button">
+                Novos Personagens
+            </button>
+        </nav>
+        <ul data-tab-id="todos_personagens" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/todos_personagens/alegria.jpg" alt="Alegria">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/todos_personagens/ansiedade.jpg" alt="Ansiedade">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/todos_personagens/raiva.jpg" alt="Raiva">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/todos_personagens/tristeza.jpg" alt="Tristeza">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/todos_personagens/vergonha.png" alt="Vergonha">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/todos_personagens/medo.jpg" alt="Medo">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/todos_personagens/tedio.jpg" alt="Tedio">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/todos_personagens/nojinho.jpg" alt="Nojinho">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/todos_personagens/inveja.jpg" alt="Inveja">
+            </li>
+        </ul>
+        <ul data-tab-id="populares" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/ansiedade.jpg" alt="Ansiedade">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/alegria.jpg" alt="Alegria">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/tristeza.jpg" alt="Tristeza">
+            </li>
+        </ul>
+        <ul data-tab-id="novos_personagens" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/novos_personagens/ansiedade.jpg" alt="Ansiedade">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/novos_personagens/vergonha.png" alt="Vergonha">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/novos_personagens/tedio.jpg" alt="Tedio">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/novos_personagens/inveja.jpg" alt="Inveja">
+            </li>
+        </ul>
+    </section>
+    <script src="./src/main.js"></script>
 </body>
 </html>
